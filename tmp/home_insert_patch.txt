@@ -1,0 +1,1 @@
+Replace the first lines of the Column children to insert a SizedBox(height:24) before the header Padding.

@@ -126,6 +126,13 @@ class AppDatabase extends _$AppDatabase {
         .get();
   }
 
+  /// Fetch all transactions belonging to a specific category.
+  Future<List<Transaction>> getTransactionsByCategory(int categoryId) {
+    return (select(
+      transactions,
+    )..where((t) => t.categoryId.equals(categoryId))).get();
+  }
+
   /// Fetch transactions with optional filters (keyword in note/type, date range).
   Future<List<Transaction>> getTransactions({
     String? query,

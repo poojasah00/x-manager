@@ -1,0 +1,100 @@
+{
+  "transaction_types": [
+    {
+      "id": "income",
+      "label": "Income",
+      "sub_items": [
+        {
+          "id": "salary",
+          "label": "Salary"
+        },
+        {
+          "id": "freelance",
+          "label": "Freelance"
+        },
+        {
+          "id": "bonus",
+          "label": "Bonus"
+        }
+      ]
+    },
+    {
+      "id": "expense",
+      "label": "Expense",
+      "sub_items": [
+        {
+          "id": "food",
+          "label": "Food"
+        },
+        {
+          "id": "transport",
+          "label": "Transport"
+        },
+        {
+          "id": "utilities",
+          "label": "Utilities"
+        }
+      ]
+    },
+    {
+      "id": "lent",
+      "label": "Lent",
+      "sub_items": [
+        {
+          "id": "to_friend",
+          "label": "To Friend"
+        },
+        {
+          "id": "to_family",
+          "label": "To Family"
+        }
+      ]
+    },
+    {
+      "id": "borrow",
+      "label": "Borrow",
+      "sub_items": [
+        {
+          "id": "from_friend",
+          "label": "From Friend"
+        },
+        {
+          "id": "from_family",
+          "label": "From Family"
+        },
+        {
+          "id": "loan",
+          "label": "Loan"
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "label": "Withdrawal",
+      "sub_items": [
+        {
+          "id": "atm",
+          "label": "ATM"
+        },
+        {
+          "id": "bank_counter",
+          "label": "Bank Counter"
+        }
+      ]
+    },
+    {
+      "id": "savings",
+      "label": "Savings",
+      "sub_items": [
+        {
+          "id": "deposit",
+          "label": "Deposit"
+        },
+        {
+          "id": "transfer",
+          "label": "Transfer"
+        }
+      ]
+    }
+  ]
+}

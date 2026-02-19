@@ -57,4 +57,9 @@ class TransactionRepository {
       // Loans handling should be implemented here as needed.
     });
   }
+
+  /// Retrieves transactions filtered by category id.
+  Future<List<Transaction>> getTransactionsByCategory(int categoryId) {
+    return db.getTransactionsByCategory(categoryId);
+  }
 }
